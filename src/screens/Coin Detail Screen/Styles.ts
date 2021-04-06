@@ -1,0 +1,123 @@
+import {StyleSheet,Dimensions} from 'react-native'
+
+const styles = StyleSheet.create({
+    header:{
+        width:'100%',
+        height:361,
+        backgroundColor:'#3F2772'
+    } ,
+    Image:{
+        position:'absolute',
+        right:1,
+        top:'55%',
+        // height:Dimensions.get('window').height-600,
+        width:170,
+        height:200,
+        resizeMode:'contain',
+        
+    },
+    container:{
+        width:'100%',
+        alignItems:'center',
+        justifyContent:'space-evenly',
+        flexDirection:'row',
+        marginTop:40,
+        marginLeft:60
+        
+    },
+    HeaderFont:{
+        fontSize:16,
+        color:'#fff'
+    },
+    DateFont:{
+        fontSize:13,
+        color:'#8878A7'
+    },
+    Profile:{
+        height:50,
+        width:50,
+        borderRadius:50
+    }, 
+    priceContainer:{
+        marginLeft:40,
+        marginTop:50
+    },
+    title:{
+        fontSize:16,
+        color:'#8878A7'
+    },
+    networth:{
+        fontSize:28,
+        color:'#fff',
+        fontWeight:'bold'
+    },
+    logoBarounContainer:{
+        width:59,
+        height:59,
+        borderColor:'#fff',
+        borderWidth:0.5,
+        borderRadius:15,
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    LogoImage:{
+        width:42,
+        height:42
+    },
+    name:{
+        fontSize:18,
+        color:'#fff',
+        fontWeight:'600'
+    },
+    value:{
+        fontSize:16,
+        color:'#3387CF',
+        fontWeight:'bold'
+    },
+    price:{
+        fontSize:13,
+        color:'#8878A7',
+        fontWeight:'bold'   
+    },
+    SellButton:{
+        height:60,
+        backgroundColor:'#E791B3',
+        width:'45%',
+        borderTopRightRadius:20,
+        borderBottomRightRadius:20,
+        borderWidth:6,
+        borderColor:'#998DB1',
+        justifyContent:'space-evenly',
+        alignItems:'center',
+        flexDirection:'row',
+        borderLeftWidth:0
+    },
+    BuyButton:{
+        height:60,
+        backgroundColor:'#3F2772',
+        width:'45%',
+        borderTopLeftRadius:20,
+        borderBottomLeftRadius:20,
+        borderWidth:6,
+        borderColor:'#998DB1',
+        justifyContent:'space-evenly',
+        alignItems:'center',
+        flexDirection:'row',
+        borderRightWidth:0
+    },
+    BuySell:{
+        flexDirection:'row',
+        justifyContent:'center',
+        alignItems:'center',
+        marginTop:'auto',
+        marginBottom:4, 
+    },
+    buttonFont:{
+        color:'#fff',
+        fontSize:16,
+        fontWeight:'bold'
+    }
+
+})
+
+export default styles

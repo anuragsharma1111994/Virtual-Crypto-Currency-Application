@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-voticrypto-dev-164012-authRole",
+      "UnauthRoleArn": "arn:aws:iam::732964930474:role/amplify-voticrypto-dev-164012-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::732964930474:role/amplify-voticrypto-dev-164012-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-voticrypto-dev-164012-deployment",
+      "UnauthRoleName": "amplify-voticrypto-dev-164012-unauthRole",
+      "StackName": "amplify-voticrypto-dev-164012",
+      "StackId": "arn:aws:cloudformation:us-east-1:732964930474:stack/amplify-voticrypto-dev-164012/2eeef350-946d-11eb-9852-0efb334d2cc7",
+      "AmplifyAppId": "dohn4zlr3od5q"
+    },
+    "categories": {
+      "auth": {
+        "voticryptoe680ccd3": {}
+      },
+      "function": {
+        "voticryptoe680ccd3PostConfirmation": {}
+      }
+    }
+  }
+}

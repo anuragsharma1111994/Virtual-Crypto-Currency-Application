@@ -1,0 +1,16 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "voticryptoe680ccd3",
+  "functionName": "voticryptoe680ccd3PostConfirmation",
+  "resourceName": "voticryptoe680ccd3PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\Users\\ASUS\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "roleName": "voticryptoe680ccd3PostConfirmation",
+  "skipEdit": true,
+  "enableCors": false
+}

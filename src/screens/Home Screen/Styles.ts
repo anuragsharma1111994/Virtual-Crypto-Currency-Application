@@ -1,0 +1,81 @@
+import {StyleSheet} from 'react-native'
+
+const styles = StyleSheet.create({
+    container:{
+        width:'100%',
+        alignItems:'center',
+        justifyContent:'space-evenly',
+        flexDirection:'row',
+        marginTop:40,
+        marginLeft:60
+         
+    },
+    HeaderFont:{
+        fontSize:16 
+    },
+    DateFont:{
+        fontSize:13,
+        color:'gray'
+    },
+    Profile:{
+        height:50,
+        width:50,
+        borderRadius:50
+    },
+    PortfolioContainer:{
+        backgroundColor:'#E7E7E7',
+        width:'100%',
+        height:'30%',
+        marginTop:25,
+        justifyContent:'flex-end',
+        alignItems:'center',
+       
+    },
+    portfolioCard:{
+        backgroundColor:'#3F2772',
+        width:'95%',
+        height:'78%',
+        borderTopEndRadius:44,
+        borderTopStartRadius:44
+    },
+    Shado:{
+        width:'79%',
+        height:15,
+        backgroundColor:'#ADADAD',
+        borderTopEndRadius:100,
+        borderTopStartRadius:100
+    },
+    ProfileHeader:{
+        marginLeft:20,
+        marginTop:20,
+        flexDirection:'row',
+        alignItems:'center'
+    },
+    VotiImage:{
+        height:20,
+        width:20
+    },
+    Title:{
+        fontSize:8,
+        color:'white'
+    },
+    UpdateText:{
+        fontSize:8,
+        color:'#9E9C9C'
+    },
+    Balance:{
+        marginLeft:20,
+        marginTop:'10%'
+    },
+    BalanceText:{
+        fontSize:25,
+        fontWeight:'bold',
+        color:'#fff'
+    },
+    CurrentText:{
+        fontSize:13,
+        color:'#8878A7'
+    }
+})
+
+export default styles

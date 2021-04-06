@@ -1,17 +1,30 @@
 export type RootStackParamList = {
   Root: undefined;
   NotFound: undefined;
+  CoinExchangeScreen: undefined;
+  ExchangeScreen: undefined;
+  WelcomeScreen: undefined;
+  Signin: undefined;
+
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  HomeScreen: undefined;
+  Market: undefined;
+  LeaderBoard: undefined;
+  Profile: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type HomeScreenParamList = {
+  HomeScreen: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type MarketScreenParamList = {
+  MarketScreen: undefined;
+};
+export type LeaderScreenParamList = {
+  LeaderScreen: undefined;
+};
+export type ProfileScreenParamList = {
+  ProfileScreen: undefined;
 };
